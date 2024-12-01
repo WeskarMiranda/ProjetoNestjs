@@ -1,0 +1,1 @@
+docker run --name root --rm -v /tmp/mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=positivo -e MYSQL_DATABASE=positivo -p 3306:3306 -it mysql:8.0
